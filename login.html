@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log in or sign up | Haven</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">Haven<span>.</span></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="properties.html">Properties</a>
+      <a href="tenants.html">Tenants</a>
+      <a href="maintenance.html">Maintenance</a>
+    </nav>
+    <a class="header-login current" href="login.html">Log in</a>
+  </header>
+
+  <main class="auth-page">
+    <div class="auth-intro">
+      <p class="eyebrow">WELCOME TO HAVEN</p>
+      <h1>A calmer way<br>to manage <span>home.</span></h1>
+      <p>Sign in to your workspace or create an account to get started. This sample page is for the project demo.</p>
+      <div class="auth-illustration"><div class="auth-sun"></div><div class="auth-house"><span></span><i></i><i></i></div><div class="auth-plant">♧</div></div>
+    </div>
+    <section class="auth-card">
+      <div class="auth-tabs"><a class="selected" href="#login-form">Log in</a><a href="#signup-form">Sign up</a></div>
+      <form id="login-form" class="auth-form">
+        <h2>Welcome back</h2>
+        <p>Enter your details to open your workspace.</p>
+        <label for="login-email">Email address</label>
+        <input id="login-email" type="email" placeholder="you@example.com">
+        <label for="login-password">Password</label>
+        <input id="login-password" type="password" placeholder="Enter your password">
+        <a class="forgot-link" href="#login-form">Forgot password?</a>
+        <button class="button button-green auth-submit" type="button" onclick="alert('Login is a visual demo. No account is connected.')">Log in</button>
+        <div class="auth-divider"><span>OR</span></div>
+        <p class="auth-switch">New to Haven? <a href="#signup-form">Create an account</a></p>
+      </form>
+      <form id="signup-form" class="auth-form signup-form">
+        <h2>Create your account</h2>
+        <p>Start organizing your property workspace.</p>
+        <label for="signup-name">Your name</label>
+        <input id="signup-name" type="text" placeholder="Jordan Davis">
+        <label for="signup-email">Email address</label>
+        <input id="signup-email" type="email" placeholder="you@example.com">
+        <label for="signup-password">Create a password</label>
+        <input id="signup-password" type="password" placeholder="At least 8 characters">
+        <button class="button button-green auth-submit" type="button" onclick="alert('Sign up is a visual demo. No account will be created.')">Create account</button>
+        <p class="auth-switch">Already have an account? <a href="#login-form">Log in</a></p>
+      </form>
+      <p class="auth-demo-note">Demo only — forms do not save or send your information.</p>
+    </section>
+  </main>
+  <footer class="landing-footer auth-footer"><a class="logo" href="index.html">Haven<span>.</span></a><span>Property management, made a little simpler.</span><a href="index.html">Back to home</a></footer>
+</body>
+</html>

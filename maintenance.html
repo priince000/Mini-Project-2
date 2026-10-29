@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maintenance | Haven</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header"><a class="logo" href="index.html">Haven<span>.</span></a><nav><a href="index.html">Home</a><a href="properties.html">Properties</a><a href="tenants.html">Tenants</a><a class="active" href="maintenance.html">Maintenance</a></nav><a class="header-login" href="login.html">Log in</a></header>
+  <main class="container">
+    <div class="page-heading"><div><p class="eyebrow">PROPERTY CARE</p><h1>Maintenance</h1><p class="subheading">A simple board for tracking reported repair requests.</p></div><span class="status offline">3 requests need attention</span></div>
+    <section class="ticket-board">
+      <div class="ticket-column"><div class="column-heading"><span class="status offline">OPEN</span><span>2 requests</span></div>
+        <article class="ticket-card"><div class="ticket-top"><span>MT-204 · PLUMBING</span><span class="priority high">HIGH</span></div><h2>Kitchen faucet is leaking</h2><p>Water is dripping under the kitchen sink.</p><div class="ticket-info">The Linden · Unit 4B<br>Reported by Sofia Chen</div><div class="ticket-bottom"><span>Today · 9:42 AM</span><button onclick="alert('This is a sample maintenance ticket.')">View details</button></div></article>
+        <article class="ticket-card"><div class="ticket-top"><span>MT-203 · HVAC</span><span class="priority medium">MEDIUM</span></div><h2>Heating unit making noise</h2><p>A rattling sound comes from the bedroom radiator.</p><div class="ticket-info">Marlow House · Unit 1D<br>Reported by Ethan Williams</div><div class="ticket-bottom"><span>Today · 8:16 AM</span><button onclick="alert('This is a sample maintenance ticket.')">View details</button></div></article>
+      </div>
+      <div class="ticket-column"><div class="column-heading"><span class="status progress">IN PROGRESS</span><span>1 request</span></div>
+        <article class="ticket-card"><div class="ticket-top"><span>MT-201 · ELECTRICAL</span><span class="priority low">LOW</span></div><h2>Hallway light replacement</h2><p>Third-floor hallway bulb has gone out.</p><div class="ticket-info">Parkview Lofts · Unit 3F<br>Reported by Noah Kim</div><div class="ticket-bottom"><span>Yesterday</span><button onclick="alert('This request is already in progress.')">View details</button></div></article>
+      </div>
+      <div class="ticket-column"><div class="column-heading"><span class="status online">RESOLVED</span><span>1 request</span></div>
+        <article class="ticket-card"><div class="ticket-top"><span>MT-199 · GENERAL</span><span class="priority low">LOW</span></div><h2>Bathroom door handle loose</h2><p>The handle was loose and needed tightening.</p><div class="ticket-info">Juniper Court · Unit 2A<br>Reported by Priya Patel</div><div class="ticket-bottom"><span>Oct 26, 2026</span><button onclick="alert('This request has been resolved.')">View details</button></div></article>
+      </div>
+    </section>
+    <p class="footer-note">HAVEN PROPERTY MANAGEMENT <span>Ticket updates are a visual demonstration</span></p>
+  </main>
+</body>
+</html>

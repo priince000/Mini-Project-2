@@ -1,33 +1,36 @@
 {
+  "country": "India",
+  "currency": "INR",
+  "locale": "en-IN",
   "properties": [
-    { "id": "p1", "name": "The Linden", "address": "124 Linden Street, Brooklyn, NY", "type": "Residential", "units": 24, "occupied": 22, "image": "linden", "color": "sage" },
-    { "id": "p2", "name": "Parkview Lofts", "address": "88 Wythe Avenue, Brooklyn, NY", "type": "Residential", "units": 18, "occupied": 16, "image": "parkview", "color": "sand" },
-    { "id": "p3", "name": "Marlow House", "address": "460 Dean Street, Brooklyn, NY", "type": "Mixed use", "units": 32, "occupied": 30, "image": "marlow", "color": "blue" },
-    { "id": "p4", "name": "Juniper Court", "address": "17 Carlton Avenue, Brooklyn, NY", "type": "Residential", "units": 12, "occupied": 11, "image": "juniper", "color": "rose" }
+    { "id": "p1", "name": "Neem Residency", "address": "24 Baner Road, Pune, Maharashtra", "type": "Residential", "units": 24, "occupied": 22, "image": "neem", "color": "sage" },
+    { "id": "p2", "name": "Lakeview Heights", "address": "18 Viman Nagar, Pune, Maharashtra", "type": "Residential", "units": 18, "occupied": 16, "image": "lakeview", "color": "sand" },
+    { "id": "p3", "name": "Mango Tree Enclave", "address": "7 Koregaon Park, Pune, Maharashtra", "type": "Mixed use", "units": 32, "occupied": 30, "image": "mango-tree", "color": "blue" },
+    { "id": "p4", "name": "Peepal Court", "address": "42 Aundh Road, Pune, Maharashtra", "type": "Residential", "units": 12, "occupied": 11, "image": "peepal", "color": "rose" }
   ],
   "tenants": [
-    { "id": "t1", "name": "Sofia Chen", "unit": "4B", "property": "The Linden", "email": "sofia.chen@email.com", "phone": "(917) 555-0142", "rent": 2850, "rentStatus": "paid", "leaseEnd": "Aug 31, 2026", "initials": "SC", "color": "peach" },
-    { "id": "t2", "name": "Marcus Johnson", "unit": "2A", "property": "Parkview Lofts", "email": "marcus.j@email.com", "phone": "(917) 555-0186", "rent": 3200, "rentStatus": "pending", "leaseEnd": "Sep 30, 2026", "initials": "MJ", "color": "lavender" },
-    { "id": "t3", "name": "Amara Okafor", "unit": "5C", "property": "The Linden", "email": "amara.o@email.com", "phone": "(917) 555-0118", "rent": 2675, "rentStatus": "paid", "leaseEnd": "Oct 31, 2026", "initials": "AO", "color": "mint" },
-    { "id": "t4", "name": "Ethan Williams", "unit": "1D", "property": "Marlow House", "email": "ethan.w@email.com", "phone": "(917) 555-0193", "rent": 2450, "rentStatus": "overdue", "leaseEnd": "Jul 31, 2026", "initials": "EW", "color": "blue" },
-    { "id": "t5", "name": "Priya Patel", "unit": "3A", "property": "Juniper Court", "email": "priya.p@email.com", "phone": "(917) 555-0127", "rent": 3100, "rentStatus": "paid", "leaseEnd": "Dec 31, 2026", "initials": "PP", "color": "rose" },
-    { "id": "t6", "name": "Noah Kim", "unit": "2C", "property": "Parkview Lofts", "email": "noah.k@email.com", "phone": "(917) 555-0164", "rent": 2950, "rentStatus": "paid", "leaseEnd": "Nov 30, 2026", "initials": "NK", "color": "gold" },
-    { "id": "t7", "name": "Isabella Garcia", "unit": "6A", "property": "Marlow House", "email": "isabella.g@email.com", "phone": "(917) 555-0173", "rent": 3400, "rentStatus": "pending", "leaseEnd": "Jan 31, 2027", "initials": "IG", "color": "lavender" },
-    { "id": "t8", "name": "Liam O'Connor", "unit": "1B", "property": "The Linden", "email": "liam.o@email.com", "phone": "(917) 555-0139", "rent": 2750, "rentStatus": "paid", "leaseEnd": "Feb 28, 2027", "initials": "LO", "color": "mint" }
+    { "id": "t1", "name": "Aarav Sharma", "unit": "4B", "property": "Neem Residency", "email": "aarav.sharma@example.in", "phone": "+91 98765 41021", "rent": 28500, "rentStatus": "paid", "leaseEnd": "Aug 31, 2027", "initials": "AS", "color": "peach" },
+    { "id": "t2", "name": "Ananya Iyer", "unit": "2A", "property": "Lakeview Heights", "email": "ananya.iyer@example.in", "phone": "+91 98765 41022", "rent": 32000, "rentStatus": "pending", "leaseEnd": "Sep 30, 2027", "initials": "AI", "color": "lavender" },
+    { "id": "t3", "name": "Rohan Mehta", "unit": "5C", "property": "Neem Residency", "email": "rohan.mehta@example.in", "phone": "+91 98765 41023", "rent": 26750, "rentStatus": "paid", "leaseEnd": "Oct 31, 2027", "initials": "RM", "color": "mint" },
+    { "id": "t4", "name": "Kavya Nair", "unit": "1D", "property": "Mango Tree Enclave", "email": "kavya.nair@example.in", "phone": "+91 98765 41024", "rent": 24500, "rentStatus": "overdue", "leaseEnd": "Jul 31, 2027", "initials": "KN", "color": "blue" },
+    { "id": "t5", "name": "Ishaan Desai", "unit": "3A", "property": "Peepal Court", "email": "ishaan.desai@example.in", "phone": "+91 98765 41025", "rent": 31000, "rentStatus": "paid", "leaseEnd": "Dec 31, 2027", "initials": "ID", "color": "rose" },
+    { "id": "t6", "name": "Diya Kulkarni", "unit": "2C", "property": "Lakeview Heights", "email": "diya.kulkarni@example.in", "phone": "+91 98765 41026", "rent": 29500, "rentStatus": "paid", "leaseEnd": "Nov 30, 2027", "initials": "DK", "color": "gold" },
+    { "id": "t7", "name": "Arjun Rao", "unit": "6A", "property": "Mango Tree Enclave", "email": "arjun.rao@example.in", "phone": "+91 98765 41027", "rent": 34000, "rentStatus": "pending", "leaseEnd": "Jan 31, 2028", "initials": "AR", "color": "lavender" },
+    { "id": "t8", "name": "Meera Joshi", "unit": "1B", "property": "Neem Residency", "email": "meera.joshi@example.in", "phone": "+91 98765 41028", "rent": 27500, "rentStatus": "paid", "leaseEnd": "Feb 29, 2028", "initials": "MJ", "color": "mint" }
   ],
   "tickets": [
-    { "id": "MT-204", "title": "Kitchen faucet is leaking", "description": "Water is dripping under the sink in the kitchen.", "property": "The Linden", "unit": "4B", "tenant": "Sofia Chen", "priority": "high", "status": "open", "category": "Plumbing", "date": "Today, 9:42 AM" },
-    { "id": "MT-203", "title": "Heating unit making noise", "description": "A rattling sound comes from the bedroom radiator.", "property": "Marlow House", "unit": "1D", "tenant": "Ethan Williams", "priority": "medium", "status": "open", "category": "HVAC", "date": "Today, 8:16 AM" },
-    { "id": "MT-201", "title": "Hallway light replacement", "description": "Third-floor hallway bulb has gone out.", "property": "Parkview Lofts", "unit": "3F", "tenant": "Noah Kim", "priority": "low", "status": "progress", "category": "Electrical", "date": "Yesterday" },
-    { "id": "MT-199", "title": "Bathroom door handle loose", "description": "Handle is loose and needs tightening.", "property": "Juniper Court", "unit": "2A", "tenant": "Priya Patel", "priority": "low", "status": "done", "category": "General", "date": "Oct 26, 2026" }
+    { "id": "MT-204", "title": "Kitchen tap is leaking", "description": "Water is dripping under the kitchen sink.", "property": "Neem Residency", "unit": "4B", "tenant": "Aarav Sharma", "priority": "high", "status": "open", "category": "Plumbing", "date": "Today, 9:42 AM" },
+    { "id": "MT-203", "title": "Air conditioner making noise", "description": "A rattling sound comes from the bedroom AC unit.", "property": "Mango Tree Enclave", "unit": "1D", "tenant": "Kavya Nair", "priority": "medium", "status": "open", "category": "Electrical", "date": "Today, 8:16 AM" },
+    { "id": "MT-201", "title": "Corridor light replacement", "description": "The third-floor corridor light needs a replacement.", "property": "Lakeview Heights", "unit": "3F", "tenant": "Diya Kulkarni", "priority": "low", "status": "progress", "category": "Electrical", "date": "Yesterday" },
+    { "id": "MT-199", "title": "Bathroom door handle is loose", "description": "The bathroom door handle needs tightening.", "property": "Peepal Court", "unit": "2A", "tenant": "Ishaan Desai", "priority": "low", "status": "done", "category": "General", "date": "Oct 26, 2026" }
   ],
   "accessEvents": [
-    { "name": "Sofia Chen", "unit": "4B", "property": "The Linden", "action": "Unlocked front door", "method": "Mobile key", "time": "2 min ago", "status": "success", "initials": "SC", "color": "peach" },
-    { "name": "Building staff", "unit": "Common area", "property": "Parkview Lofts", "action": "Unlocked main entrance", "method": "Staff code", "time": "18 min ago", "status": "success", "initials": "BS", "color": "blue" },
-    { "name": "Marcus Johnson", "unit": "2A", "property": "Parkview Lofts", "action": "Access attempt", "method": "Mobile key", "time": "34 min ago", "status": "denied", "initials": "MJ", "color": "lavender" },
-    { "name": "Amara Okafor", "unit": "5C", "property": "The Linden", "action": "Unlocked unit door", "method": "Mobile key", "time": "1 hr ago", "status": "success", "initials": "AO", "color": "mint" },
-    { "name": "Maintenance team", "unit": "1D", "property": "Marlow House", "action": "Temporary access granted", "method": "Guest pass", "time": "2 hrs ago", "status": "success", "initials": "MT", "color": "gold" },
-    { "name": "Unknown credential", "unit": "Main entry", "property": "Juniper Court", "action": "Access attempt", "method": "Unrecognized fob", "time": "3 hrs ago", "status": "denied", "initials": "?", "color": "rose" }
+    { "name": "Aarav Sharma", "unit": "4B", "property": "Neem Residency", "action": "Unlocked main gate", "method": "Mobile key", "time": "2 min ago", "status": "success", "initials": "AS", "color": "peach" },
+    { "name": "Security guard", "unit": "Main gate", "property": "Lakeview Heights", "action": "Unlocked main entrance", "method": "Staff code", "time": "18 min ago", "status": "success", "initials": "SG", "color": "blue" },
+    { "name": "Ananya Iyer", "unit": "2A", "property": "Lakeview Heights", "action": "Access attempt", "method": "Mobile key", "time": "34 min ago", "status": "denied", "initials": "AI", "color": "lavender" },
+    { "name": "Rohan Mehta", "unit": "5C", "property": "Neem Residency", "action": "Unlocked apartment door", "method": "Mobile key", "time": "1 hr ago", "status": "success", "initials": "RM", "color": "mint" },
+    { "name": "Maintenance team", "unit": "1D", "property": "Mango Tree Enclave", "action": "Temporary access granted", "method": "Visitor pass", "time": "2 hrs ago", "status": "success", "initials": "MT", "color": "gold" },
+    { "name": "Unknown access card", "unit": "Main gate", "property": "Peepal Court", "action": "Access attempt", "method": "Unrecognized card", "time": "3 hrs ago", "status": "denied", "initials": "?", "color": "rose" }
   ],
   "monthlyRent": [
     { "month": "May", "collected": 72 },

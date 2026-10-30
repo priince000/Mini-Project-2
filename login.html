@@ -27,31 +27,31 @@
     </div>
     <section class="auth-card">
       <div class="auth-tabs"><a class="selected" href="#login-form">Log in</a><a href="#signup-form">Sign up</a></div>
-      <form id="login-form" class="auth-form">
+      <form id="login-form" class="auth-form" onsubmit="window.location.href='properties.html'; return false;">
         <h2>Welcome back</h2>
-        <p>Enter your details to open your workspace.</p>
+        <p>Enter your details to continue to your workspace.</p>
         <label for="login-email">Email address</label>
-        <input id="login-email" type="email" placeholder="you@example.com">
+        <input id="login-email" type="email" placeholder="you@example.com" required>
         <label for="login-password">Password</label>
-        <input id="login-password" type="password" placeholder="Enter your password">
+        <input id="login-password" type="password" placeholder="Enter your password" required>
         <a class="forgot-link" href="#login-form">Forgot password?</a>
-        <button class="button button-green auth-submit" type="button" onclick="alert('Login is a visual demo. No account is connected.')">Log in</button>
+        <button class="button button-green auth-submit" type="submit">Log in</button>
         <div class="auth-divider"><span>OR</span></div>
         <p class="auth-switch">New to Haven? <a href="#signup-form">Create an account</a></p>
       </form>
-      <form id="signup-form" class="auth-form signup-form">
+      <form id="signup-form" class="auth-form signup-form" onsubmit="window.location.href='properties.html'; return false;">
         <h2>Create your account</h2>
         <p>Start organizing your property workspace.</p>
         <label for="signup-name">Your name</label>
-        <input id="signup-name" type="text" placeholder="Jordan Davis">
+        <input id="signup-name" type="text" placeholder="Jordan Davis" required>
         <label for="signup-email">Email address</label>
-        <input id="signup-email" type="email" placeholder="you@example.com">
+        <input id="signup-email" type="email" placeholder="you@example.com" required>
         <label for="signup-password">Create a password</label>
-        <input id="signup-password" type="password" placeholder="At least 8 characters">
-        <button class="button button-green auth-submit" type="button" onclick="alert('Sign up is a visual demo. No account will be created.')">Create account</button>
+        <input id="signup-password" type="password" placeholder="At least 8 characters" required>
+        <button class="button button-green auth-submit" type="submit">Create account</button>
         <p class="auth-switch">Already have an account? <a href="#login-form">Log in</a></p>
       </form>
-      <p class="auth-demo-note">Demo only — forms do not save or send your information.</p>
+      <p class="auth-demo-note">Demo only — enter the required fields to continue. No account is created or information saved.</p>
     </section>
   </main>
   <footer class="landing-footer auth-footer"><a class="logo" href="index.html">Haven<span>.</span></a><span>Property management, made a little simpler.</span><a href="index.html">Back to home</a></footer>
